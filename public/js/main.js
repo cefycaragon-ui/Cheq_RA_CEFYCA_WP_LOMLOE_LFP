@@ -11,7 +11,7 @@ var CHARAHelp_ruta_parametros ='../../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLO
 //En la v8.05 metemos todo en LOMLOE.
 //En la v9.041 metemos la LFP
 
-const v_js = "11.11"
+const v_js = "11.20"
 const txtLimiteCongErrores = 300
 const txtLimiteExpErrores = 300
 var limiteCongErrores = txtLimiteCongErrores
@@ -260,23 +260,17 @@ const cruces = function(r){
                 //console.log({objeto})
                 //console.log(objeto[valor])0
                 //console.log(tipo_ens)
-
-                if(codigo == '45' || codigo == '49'){
-                    /* if(valor!=0){
-                        //console.log('tipo calificacion 1 ó 2')
-                        //console.log(objeto[valor] == tipo_ens)
-                        //console.log(objeto[valor])
-                        //console.log(tipo_ens)
-                    }
-                    
-                    if(codigo == '45' && valor != 0){
-                        //console.log('evaluando un cod 45 d valor no 0')
-                        //console.log(objeto)
-                        //console.log(valor)
-                        //console.log(parseInt(objeto[valor]) )
-                        //console.log(parseInt(tipo_ens))
-                    } */
+                if (codigo == '49'){
                     return !(parseInt(objeto[valor]) == parseInt(tipo_ens) || valor == 0)
+                }
+                if(codigo == '45'){
+                    /* Hay que verificar si el parametro es un valor o un array */
+                    if (Array.isArray(objeto[valor])){
+                        //Cuando el parametro es un array valoramos asi:
+                        return (!objeto || !objeto[valor] || !objeto[valor].includes(tipo_ens))
+                    }else{
+                        return !(parseInt(objeto[valor]) == parseInt(tipo_ens) || valor == 0)
+                    }                    
                 }else{ //codigo 46 por eliminación
                     return !r['tipo'].includes(parseInt(valor))
                 }
