@@ -11,7 +11,7 @@ var CHARAHelp_ruta_parametros ='../../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLO
 //En la v8.05 metemos todo en LOMLOE.
 //En la v9.041 metemos la LFP
 
-const v_js = "11.20"
+const v_js = "12.01"
 const txtLimiteCongErrores = 300
 const txtLimiteExpErrores = 300
 var limiteCongErrores = txtLimiteCongErrores
@@ -49,6 +49,7 @@ var numero_GIR_temporal = ''
 var tipoEnsenanzaActiva = ''
 
 var warningsMaterias = {}
+var warningTemporalesFP = {}
 
 const cadenaEnBlanco = function(cad){
     
@@ -568,6 +569,8 @@ const almacenarAlumno = function(dato_alumno, dato_materias_matricula, cursoEnse
                 'resto'     : 0,
                 'aptos_1'   : 0,
                 'aptos_2'   : 0,
+                'temporales_1' : 0,
+                'temporales_2' : 0,
                 'por_tipos' : {}
             }
         }
@@ -585,13 +588,21 @@ const almacenarAlumno = function(dato_alumno, dato_materias_matricula, cursoEnse
         }
         RESUMENASIGNATURAS.materiasXensenanza[dato_alumno['tipo_ens']][dato_alumno['ensenanza']][dato_alumno['curso']][key_materia['materia']]['por_tipos'][key_materia['tipo_matricula']] += 1
         //Parte para mostrar el numero de aptos por convocatoria.
-        
+        //console.log(key_materia);
         if ( key_materia['apto'] == 1){
             RESUMENASIGNATURAS.materiasXensenanza[dato_alumno['tipo_ens']][dato_alumno['ensenanza']][dato_alumno['curso']][key_materia['materia']]['aptos_1'] += 1;
         }
         if (key_materia['apto_extraordinaria'] == 1){
             RESUMENASIGNATURAS.materiasXensenanza[dato_alumno['tipo_ens']][dato_alumno['ensenanza']][dato_alumno['curso']][key_materia['materia']]['aptos_2'] += 1;
         }
+        //Contamos los temporales de la primera y la segunda convocatoria
+        if (key_materia['nota_temporal_1']){
+            RESUMENASIGNATURAS.materiasXensenanza[dato_alumno['tipo_ens']][dato_alumno['ensenanza']][dato_alumno['curso']][key_materia['materia']]['temporales_1'] += 1;
+        }
+
+        if (key_materia['nota_temporal_2']){
+            RESUMENASIGNATURAS.materiasXensenanza[dato_alumno['tipo_ens']][dato_alumno['ensenanza']][dato_alumno['curso']][key_materia['materia']]['temporales_2'] += 1;
+        }   
     }
 
     //console.log({RESUMENASIGNATURAS})
@@ -694,7 +705,8 @@ const maquetarResumenAsignaturas = function(){
                     }
                 }
                 cadena += warningPromocionCursos(tipo, curso);
-                cadena += '<span class="warningCursosAvisos" id="banner_wc_' + tipo  + ense + k + '"></span>'
+                cadena += '<span class="warningCursosAvisos" id="banner_wc_' + tipo  + ense + k + '"></span>';
+                
                 
             }
             cadena += '</ul>'
@@ -741,12 +753,19 @@ const maquetarResumenAsignaturas = function(){
                         }
                     cadena+='</tr>';
                     let evalAprobados = evaluarAprobados(tipo, mat, colspan, hayExtraordinaria);
-                    // Cunando evalAprobados es distinto de "" añadimos a la enseñanza y curso que hay warnings.
-                    if(evalAprobados != ""){
+                    //console.log({evalAprobados});
+                    // Cuando evalAprobados es distinto de "" añadimos a la enseñanza y curso que hay warnings.
+                    if(evalAprobados.includes("warning_suspensos")){
                         if(!warningsMaterias[tipo]) warningsMaterias[tipo] = {};
                         if(!warningsMaterias[tipo][ense]) warningsMaterias[tipo][ense] = {};
                         if(!warningsMaterias[tipo][ense][curso]) warningsMaterias[tipo][ense][curso] = {};
                         warningsMaterias[tipo][ense][curso] =  true;
+                    }
+                    if(evalAprobados.includes("warning_temporales")){
+                        if(!warningTemporalesFP[tipo]) warningTemporalesFP[tipo] = {};
+                        if(!warningTemporalesFP[tipo][ense]) warningTemporalesFP[tipo][ense] = {};
+                        if(!warningTemporalesFP[tipo][ense][curso]) warningTemporalesFP[tipo][ense][curso] = {};
+                        warningTemporalesFP[tipo][ense][curso] =  true;
                     }
                     //console.log({warningsMaterias})
                     cadena += evalAprobados;
@@ -857,6 +876,7 @@ const evaluarAlumnoMateria = function(linea_alumno, dato_alumno, dato_materias, 
         if(dato_alumno['tipo'] && dato_alumno['tipo'] == 2){
             //Todas deberian ser tipo 2 pero comprobamos por si acaso.
             //console.log('almacenamos alumno.')
+            //console.log({dato_alumno},{dato_materias_matricula}, {cursoEnsenanzaActiva})
             almacenarAlumno(dato_alumno, dato_materias_matricula,cursoEnsenanzaActiva)
         }
         let A = parametros["denominacion_asignaturas"]
@@ -1044,6 +1064,7 @@ const validarCongruencia = function(){
     //console.log({datosEstructura})
     //Aqui llegan los datos bien.
     let datos = datosEstructura["lineas"]
+    //console.log({datos})
     let lineas_evaluadas = datosEstructura["n_lineas_evaluadas"]
     let textoApoyoDevolucion = ""
     let txtDevolucion = "" //Si no hay errores devolveremos en blanco.
@@ -1187,8 +1208,11 @@ const validarCongruencia = function(){
                                 "nota_1": datoLinea.nota_1,
                                 "nota_2": datoLinea.nota_2,
                                 "apto" : datoLinea.apto,
+                                "nota_temporal_1" : datoLinea.tipo_calificacion_1 == 10,
+                                "nota_temporal_2" : datoLinea.tipo_calificacion_2 == 10,
                                 "apto_extraordinaria" : datoLinea.apto_extraordinaria
                             }
+                            //console.log({itemTMP})
                             tmp_dato_materias_matricula.push(itemTMP)
                         }
                     }
@@ -1360,7 +1384,7 @@ const validarFichero = function(fichero){
         }
 
         /* Una vez llenos los warnings revisamos los cursos con warnings y mostarmos..*/
-        warningAvisosMaterias(warningsMaterias);
+        warningAvisosMaterias(warningsMaterias,warningTemporalesFP);
     }
     fileReader.readAsText(fichero);
 }

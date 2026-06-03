@@ -60,62 +60,74 @@ var limites_suspensos_por_ensenanza =
         "minimo_promocion" : 0.5, // con menos promoción salta un warning
         'minimo_para_warning': 6,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,  // porcentaje. con menos aptos sobre tipo 1 hay warning
-        "minimo_recuperan" : 0.5  // porcentaje. con menos que pasan la estraordinaria sobre no aptos en ordinaria
+        "minimo_recuperan" : 0.5,  // porcentaje. con menos que pasan la estraordinaria sobre no aptos en ordinaria
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"24" : {   // Ciclos Formativos de Grado Medio
         "minimo_promocion" : 0.5, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"25" : { // Ciclos Formativos de Grado Superior
         "minimo_promocion" : 0.6, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"112" : { // Ciclos Formativos de Grado Básico
         "minimo_promocion" : 0.5, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.4,
-        "minimo_recuperan" : 0.4
+        "minimo_recuperan" : 0.4,
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"145" : { // PRIMARIA
         "minimo_promocion" : 0.8, // con menos promoción salta un warning
         'minimo_para_warning': 5,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.65,
-        "minimo_recuperan" : 0
+        "minimo_recuperan" : 0,
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"147" : { // ESO
         "minimo_promocion" : 0.7, // con menos promoción salta un warning
         'minimo_para_warning': 5,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0
+        "minimo_recuperan" : 0,
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"149" : { // BACH  
         "minimo_promocion" : 0.7, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"151" : { // Ciclos Formativos de Grado Básico
         "minimo_promocion" : 0.5, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.4,
-        "minimo_recuperan" : 0.4
+        "minimo_recuperan" : 0.4,
+        "maximo_temporales" : 0.1 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"152" : {   // Ciclos Formativos de Grado Medio
         "minimo_promocion" : 0.5, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0.1 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"153" : { // Ciclos Formativos de Grado Superior
         "minimo_promocion" : 0.6, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0.1 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"154" : {  // Cursos de Especialización de Grado Medio
         "minimo_promocion" : 0.65, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0.1 // porcentaje. con más temporales sobre el total de alumnos hay warning
     },"155" : { // Cursos de Especialización de Grado Superior
         "minimo_promocion" : 0.65, // con menos promoción salta un warning
         'minimo_para_warning': 4,  //mínimo de alumnado para mostrar warning
         "minimo_aprobados" : 0.5,
-        "minimo_recuperan" : 0.5
+        "minimo_recuperan" : 0.5,
+        "maximo_temporales" : 0.1 // porcentaje. con más temporales sobre el total de alumnos hay warning
     }
 }
 
@@ -591,9 +603,11 @@ const lineaValida = function(linea){
         datosEstructura['lineas'][contador_lineas]['materia'] = valorauxiliar + ""
         datosEstructura['lineas'][contador_lineas]['tipo_matricula_materia'] = linea.substr(42,2).trim()
         datosEstructura['lineas'][contador_lineas]['nota_1'] = linea.substr(44,3).trim()
+        datosEstructura['lineas'][contador_lineas]['tipo_calificacion_1'] = linea.substr(55,2).trim()
         //Analizamos si la nota 1 y la nota suponen aprobado o no ( 0 sin evaluar, 1 aprobado, 2 no aprobado)
         datosEstructura['lineas'][contador_lineas]['apto'] = haAprobado(datosEstructura['lineas'][contador_lineas]['tipo_ens'],datosEstructura['lineas'][contador_lineas]['nota_1'])
         datosEstructura['lineas'][contador_lineas]['nota_2'] = linea.substr(58,3).trim()
+        datosEstructura['lineas'][contador_lineas]['tipo_calificacion_2'] = linea.substr(69,2).trim()
         //Analizamos si la nota 1 y la nota suponen aprobado o no ( 0 sin evaluar, 1 aprobado, 2 no aprobado)
         datosEstructura['lineas'][contador_lineas]['apto_extraordinaria'] = haAprobado(datosEstructura['lineas'][contador_lineas]['tipo_ens'],datosEstructura['lineas'][contador_lineas]['nota_2'])
         //console.log(datosEstructura['lineas'][contador_lineas])
@@ -738,6 +752,13 @@ const evaluarAprobados = function(tipo, mat, colspan, hayExtraordinaria = false)
     if (1-porcentaje_suspensos < limites.minimo_aprobados){
         texto_warning += '<span class="warning_suspensos">Atención: ' + (100*porcentaje_suspensos).toFixed(0) + '% de suspensos en la evaluación ordinaria.  </span>';
     } 
+    //Evaluamos la temporalidad de las notas.
+    const porcentaje_temporales = mat.temporales_1 / alumnos_efectivos;
+    //console.log('Porcentaje de temporales: ', porcentaje_temporales, limites.maximo_temporales);
+    if (porcentaje_temporales > limites.maximo_temporales){
+        if(texto_warning.length > 0) texto_warning += '<br>';
+        texto_warning += '<span class="warning_temporales">Atención: ' + (100*porcentaje_temporales).toFixed(0) + '% de notas temporales en la evaluación ordinaria.  </span>';
+    }
     if (hayExtraordinaria){
         const alumnos_efectivos_extra = alumnos_efectivos - mat.aptos_1;
         if(alumnos_efectivos_extra >= limites.minimo_para_warning) {
@@ -747,20 +768,22 @@ const evaluarAprobados = function(tipo, mat, colspan, hayExtraordinaria = false)
                 texto_warning += '<span class="warning_suspensos_extraordinaria">Atención: ' + (100*porcentaje_suspensos_extra).toFixed(0) + '% de suspensos en la extraordinaria. </span>';
             }
         };
+        const porcentaje_temporales_extra = mat.temporales_2 / alumnos_efectivos_extra;
+        if (porcentaje_temporales_extra > limites.maximo_temporales){
+            if(texto_warning.length > 0) texto_warning += '<br>';
+            texto_warning += '<span class="warning_temporales">Atención: ' + (100*porcentaje_temporales_extra).toFixed(0) + '% de notas temporales en la extraordinaria.  </span>';
+        }
         
     }
     
-
     if (texto_warning.length > 0){
         // Añadimos los tag de table
         texto += `<tr><td colspan="${colspan}" class='text-center'>`;
         texto += texto_warning;
-        texto += '</td></tr>';
-        
+        texto += '</td></tr>';        
     }
 
     return texto;
-    
     
 }
 
@@ -776,15 +799,13 @@ const warningPromocionCursos = function(tipo, curso){
     if (curso['prom']/ curso['eval'] < minimo_promocion){
         texto += '<br><span class="warning_suspensos">ATENCIÓN: porcentaje de promoción ' + (curso['prom']/ curso['eval']*100).toFixed(0) + ' % </span>'
     }
-
     return texto;
 }
 
-const warningAvisosMaterias = function(warningsMaterias){
-    // Esta función revisa si hay warnings de muchos suspensos en materias de este curos y muestar un enlace.
+const warningAvisosMaterias = function(warningsMaterias,warningTemporalesFP){
+    // Esta función revisa si hay warnings de muchos suspensos en materias de este curos y muestra un enlace.
     //console.log(warningsMaterias)
     for (const tipo in warningsMaterias){
-        
         for(const ense in warningsMaterias[tipo]){
             for(const curso in warningsMaterias[tipo][ense]){
                 //console.log('Avisos de materias: ', tipo, ense, curso, warningsMaterias[tipo][ense][curso]);
@@ -800,11 +821,34 @@ const warningAvisosMaterias = function(warningsMaterias){
                     if (spanAvisos){
                         //console.log('Span encontrado: ', spanAvisos);
                         // Añadimos el aviso
-                        spanAvisos.innerHTML = '<br>Hay avisos por número de suspensos en materias de este <a href="#'+ nombreSpan +'">curso</a>';
+                        spanAvisos.innerHTML = '<br><span class="warning_suspensos_curso">Hay avisos por número de suspensos en materias de este <a href="#'+ nombreSpan +'">curso</a></span>';
                     }
                 }
             }
         }
     }
-
+    //console.log({warningTemporalesFP})
+    for (const tipo in warningTemporalesFP){
+        for(const ense in warningTemporalesFP[tipo]){
+            for(const curso in warningTemporalesFP[tipo][ense]){
+                //console.log('Avisos de materias: ', tipo, ense, curso, warningsMaterias[tipo][ense][curso]);
+                if (warningTemporalesFP[tipo][ense][curso]){
+                    //console.log('Hay avisos de materias: ', warningsMaterias[tipo][ense][curso]);
+                    // Buscmoas el span y le añadimos el aviso
+                    
+                    let nombreSpan = 'dest_' + tipo +  ense +  curso  ;
+                    let nombreBanner = 'banner_wc_' + tipo +  ense +  curso  ;
+                    //console.log('Nombre del span: ', nombreSpan);   
+                    //console.log('nombre del banner ', nombreBanner)
+                    let spanAvisos = document.getElementById(nombreBanner);
+                    if (spanAvisos){
+                        //console.log('Span encontrado: ', spanAvisos);
+                        // Añadimos el aviso
+                        spanAvisos.innerHTML += '<br><span class="warning_temporales_curso">Hay avisos por número de evaluaciones temporales en materias de este <a href="#'+ nombreSpan +'">curso</a></span>';
+                    }
+                }
+            }
+        }
+    }
 }
+
