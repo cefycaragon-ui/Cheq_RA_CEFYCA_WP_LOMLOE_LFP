@@ -1,9 +1,10 @@
-const version = "1.66"
+const version = "1.75"
 var CHARAHelp_ruta_parametros ='../../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLOE_LFP/public/js/parametros.json'
 
 //PARA DESARROLLO USAR ESTA.
 //const CHARAHelp_ruta_parametros ='../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLOE_LFP/public/js/parametros.json'
 
+const ensenanzas_FP_con_temporalidad = ['151','152','153','154','155'] // para estas enseñanzas mostramos el porcentaje de temporales en los warnings, ya que es un dato relevante a tener en cuenta.
 
 const CHRAHelp_trad = function(valor, listado, p){
     texto = valor
@@ -35,6 +36,7 @@ const CHRAHelpDesplegarTodo = function(){
 const CHRAHelpWarnings = function(p){
     //console.log(limites_suspensos_por_ensenanza)
     let txt = "<br><h4>Configuración de advertencias por enseñanza</h4>"
+    txt += "<p>En esta sección se muestran los límites configurados para mostrar advertencias en el caso de que el porcentaje de promoción, aprobados, recuperan o temporales sea inferior al límite establecido para cada tipo de enseñanza. Para que se muestre la advertencia, además del porcentaje, debe haber un mínimo de estudiantes suspensos establecido en el parámetro 'Mínimo de estudiantes para mostrar aviso'.</p>"
     txt += '<div class="accordion-flush">'
     txt += '<div class="accordion-item" id="accordionWarnings">'
     //Ordenamos limites_suspensos_por_ensenanza, primero default y luego de menor a mayor id
@@ -42,6 +44,7 @@ const CHRAHelpWarnings = function(p){
     const limites_ordenados = Object.keys(limites_suspensos_por_ensenanza).sort((a, b) =>{
         if(a === "_default_") return -1; // "_default_" va al principio
         if(b === "_default_") return 1; // "_default_" va al principio
+        return parseInt(a) - parseInt(b); // Ordena numéricamente por id de enseñanza
         return a.localeCompare(b); // Ordena alfabéticamente el resto
     });
     //console.log(limites_ordenados)
@@ -72,7 +75,16 @@ const CHRAHelpWarnings = function(p){
         if(limites_suspensos_por_ensenanza[key]['minimo_recuperan']){
             txt += '<li><strong>Porcentaje mínimo de estudiantes aptos en extraordinaria:</strong> ' + (limites_suspensos_por_ensenanza[key]['minimo_recuperan'])*100 + ' %</li>'
         }
+        /*
+            Para las enseñanzas de FP con temporalidad (151,152,153,154 y 155) 
+            Mostramos el porcentaje máximo de temporales para que no salte el warning, 
+            ya que en estas enseñanzas es un dato relevante a tener en cuenta.
+        */
+        if(ensenanzas_FP_con_temporalidad.includes(key)){
+            txt += '<li><strong>Porcentaje máximo de estudiantes temporales:</strong> ' + (limites_suspensos_por_ensenanza[key]['maximo_temporales'])*100 + ' %</li>'
+        }
         txt += '</ul></div></div>'
+        
     }
     
 
@@ -231,8 +243,9 @@ const CHRAHelp_mostrarErrores = function(){
 }
 
 const CHRAHelp_pintarAyuda = function(parametros_rec){
-    let textoAyuda = "<h3>Parámetros usados en el plugin de Resultados Académicos - v" + version + '</h3>'
-    
+    //console.log(parametros_rec)
+    let textoAyuda = "<h3>Parámetros usados en el plugin de Resultados Académicos</h3>"
+    textoAyuda += "<p> Versión del plugin: v" + version + ", versión de parámetros: " + parametros_rec['version']   + "</p>"; 
     textoAyuda += "<div style='text-align:center;'><button id='CHRAHelpBotonDesplegar' onclick='CHRAHelpDesplegarTodo();'>Desplegar todo</button></div>"
 
     textoAyuda += CHRAHelp_pintarLimitesMaterias(parametros_rec)
@@ -263,10 +276,10 @@ window.addEventListener("load", (event) => {
     let URLactual = String(window.location).toLowerCase()
     if(URLactual.indexOf('localhost')>=0){
         //PARA DESARROLLO USAMOS ESTA.
-        console.log('en desarrollo')
+        //console.log('en desarrollo')
         
         CHARAHelp_ruta_parametros ='../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLOE_LFP/public/js/parametros.json'
-        console.log(CHARAHelp_ruta_parametros)
+        //console.log(CHARAHelp_ruta_parametros)
     }
     CHRAhelp_cargarAjax();
   });

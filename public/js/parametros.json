@@ -1,7 +1,7 @@
 {
     "p" : 
     {
-        "version": "1.400",
+        "version": "1.417",
         "ensenanzas_titulan":{
             "24"    : ["2"],
             "25"    : ["2"],
@@ -132,21 +132,6 @@
                         "3114"	,
                         "3116"	,
                         "3117"	]
-                },"30":{	
-                    "1":[	"4085"	,
-                        "4086"	,
-                        "4087"	,
-                        "4088"	,
-                        "4093"	,
-                        "4095"	,
-                        "4096"	],
-                    "2":[	"3104"	,
-                        "4089"	,
-                        "4090"	,
-                        "4091"	,
-                        "4092"	,
-                        "4094"	,
-                        "4097"	]
                 },"35":{	
                     "1":[	"3444"	,
                         "3445"	,
@@ -568,20 +553,6 @@
                         "3514"	,
                         "3516"	,
                         "3517"	]
-                },"642":{	
-                    "1":[	"3593"	,
-                        "3594"	,
-                        "3597"	,
-                        "3598"	,
-                        "3599"	,
-                        "3603"	],
-                    "2":[	"3595"	,
-                        "3596"	,
-                        "3600"	,
-                        "3601"	,
-                        "3602"	,
-                        "3604"	,
-                        "3605"	]
                 },"674":{	
                     "1":[	"3554"	,
                         "3555"	,
@@ -821,19 +792,6 @@
                         "9134"	,
                         "9135"	,
                         "9136"	]
-                },"707":{	
-                    "1":[	"10733"	,
-                        "10734"	,
-                        "10735"	,
-                        "10736"	,
-                        "10737"	,
-                        "10738"	],
-                    "2":[	"10739"	,
-                        "10740"	,
-                        "10741"	,
-                        "10742"	,
-                        "10743"	,
-                        "10744"	]
                 },"709":{	
                     "1":[	"9109"	,
                         "9110"	,
@@ -2500,13 +2458,15 @@
                         "14605"	,
                         "14608"	]
                 },"770":{	
-                                "1":[	"10795"	,
+                    "1":[	
+                        "10795"	,
                         "10796"	,
                         "10797"	,
                         "10798"	,
                         "10799"	,
                         "10800"	],
-                    "2":[	"10801"	,
+                    "2":[	
+                        "10801"	,
                         "10802"	,
                         "10803"	,
                         "10804"	,
@@ -2887,21 +2847,7 @@
                 }
             },
             "110":{	
-                "17":{	
-                                "1":[	"3716"	,
-                        "3717"	,
-                        "3718"	,
-                        "3719"	,
-                        "3720"	,
-                        "3721"	,
-                        "3722"	,
-                        "3723"	,
-                        "7463"	,
-                        "9962"	,
-                        "9963"	],
-                    "2":[	"3724"	,
-                        "5479"	]
-                },"64":{
+                "64":{
                     "1":[	"3533"	,
                         "3534"	,
                         "3535"	,
@@ -3259,26 +3205,6 @@
                         "10851"	,
                         "14052"	,
                         "14098"	]
-                },"830":{
-                    "1":[	"9361"	,
-                        "9362"	,
-                        "9363"	,
-                        "9364"	,
-                        "9365"	,
-                        "9366"	,
-                        "9367"	,
-                        "14020"	,
-                        "14062"	],
-                    "2":[	"9849"	,
-                        "9851"	,
-                        "9853"	,
-                        "9855"	,
-                        "9856"	,
-                        "9857"	,
-                        "9858"	,
-                        "9860"	,
-                        "14049"	,
-                        "14090"	]
                 },"831":{
                     "1":[	"9389"	,
                         "9390"	,
@@ -3358,26 +3284,6 @@
                         "9865"	,
                         "14045"	,
                         "14087"	]
-                },"836":{
-                    "1":[	"9413"	,
-                        "9414"	,
-                        "9415"	,
-                        "9416"	,
-                        "9417"	,
-                        "9418"	,
-                        "9419"	,
-                        "14031"	,
-                        "14073"	],
-                    "2":[	"9525"	,
-                        "9526"	,
-                        "9527"	,
-                        "9528"	,
-                        "9529"	,
-                        "9530"	,
-                        "9531"	,
-                        "9532"	,
-                        "14050"	,
-                        "14091"	]
                 },"837":{
                     "1":[	"9420"	,
                         "9421"	,
@@ -3413,140 +3319,6 @@
                         "14393"	,
                         "14394"	,
                         "14395"	]
-                }
-            },
-            "115":{	
-                "794":{
-                    "1":[	"8313"	,
-                        "8314"	,
-                        "8315"	,
-                        "8317"	,
-                        "12167"	,
-                        "12170"	],
-                    "2":[	"8319"	,
-                        "8320"	,
-                        "8321"	,
-                        "8323"	,
-                        "12168"	,
-                        "12171"	],
-                    "3":[	"8325"	,
-                        "8326"	,
-                        "8327"	,
-                        "12169"	,
-                        "12172"	,
-                        "12175"	],
-                    "4":[	"8331"	,
-                        "8332"	,
-                        "8333"	,
-                        "12173"	,
-                        "12177"	,
-                        "12178"	,
-                        "12179"	,
-                        "12180"	]
-                }
-            },
-            "139":{	
-                "865":{
-                    "1":[	
-                        "12354"	,
-                        "12355"	,
-                        "12356"	,
-                        "12357"	,
-                        "12358"	]
-                },"871":{
-                    "1":[
-                        "12446"	,
-                        "12447"	,
-                        "12448"	,
-                        "12449"	,
-                        "12450"	]
-                }
-            },
-            "140":{	
-                "866":{
-                    "1":[		
-                        "12361"	,
-                        "12362"	,
-                        "12363"	,
-                        "12364"	,
-                        "12365"	,
-                        "12366"	,
-                        "14339"	,
-                        "14340"	,
-                        "14341"	,
-                        "14342"	,
-                        "14343"	,
-                        "14344"	]
-                },"867":{		
-                    "1":[
-                        "12367"	,
-                        "12368"	,
-                        "12369"	,
-                        "12370"	,
-                        "12371"	
-                    ]
-                },"868":{		
-                    "1":[
-                        "12372"	,
-                        "12373"	,
-                        "12374"	,
-                        "12375"	,
-                        "12376"	
-                    ]
-                },"872":{		
-                    "1":[
-                        "12468"	,
-                        "12469"	,
-                        "12470"	,
-                        "12471"	,
-                        "12472"	]
-                },"873":{
-                    "1":[
-                        "12463"	,
-                        "12464"	,
-                        "12465"	,
-                        "12466"	,
-                        "12467"	,
-                        "14345"	,
-                        "14346"	,
-                        "14347"	,
-                        "14348"	,
-                        "14349"	]
-                },"874":{		
-                    "1":[
-                        "12451"	,
-                        "12452"	,
-                        "12454"	,
-                        "12455"	,
-                        "12456"	,
-                        "12457"	]
-                },"885":{		
-                    "1":[
-                        "13921"	,
-                        "13922"	,
-                        "13923"	,
-                        "13924"	,
-                        "13925"	]
-                },"890":{		
-                    "1":[
-                        "14403"	,
-                        "14404"	,
-                        "14405"	,
-                        "14406"	]
-                },"891":{		
-                    "1":["14396"	,
-                        "14397"	,
-                        "14398"	,
-                        "14399"	,
-                        "14400"	,
-                        "14401"	,
-                        "14402"	]
-                },"896":{		
-                    "1":["14589"	,
-                        "14590"	,
-                        "14591"	,
-                        "14592"	,
-                        "14593"	]
                 }
             },
             "145":{	
@@ -10363,11 +10135,11 @@
                             { "num_error": 2701, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Ciencias Sociales","materias": ["14110","14113","14170","14112","14111"]},
                             { "num_error": 2702, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Educaci\u00f3n F\u00edsica","materias": ["12680","12698","12692","12686"]},
                             { "num_error": 2703, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Educaci\u00f3n Pl\u00e1stica y Visual","materias": ["12677","12695","13873","13874","12689","12683"]},
-                            { "num_error": 2704, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Idiomas","materias": ["12701","12700","12699"]},
+                            { "num_error": 2704, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Idiomas","materias": ["12699"]},
                             { "num_error": 2705, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Matem\u00e1ticas","materias": ["12679","12697","12691","12685"]},
                             { "num_error": 2706, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): M\u00fasica y Danza","materias": ["12678","12696","12690","12684"]},
-                            { "num_error": 2707, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Religi\u00f3n / Atenci\u00f3n Educativa","materias": ["12704","12705","12706","12707","12708","12709","12710"]},
-                            { "num_error": 2708, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): 2ª Lengua","materias": ["13813","13812","13811"]},
+                            { "num_error": 2707, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Religi\u00f3n / Atenci\u00f3n Educativa","materias": ["12704","12706","12708","12709","12710"]},
+                            { "num_error": 2708, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): 2ª Lengua","materias": ["13813","13812"]},
                             { "num_error": 2709, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba PRIM): Lenguas propias","materias": ["12702","12703"]}
                         ]
                     },"2":{
@@ -10380,8 +10152,8 @@
                             { "num_error":  2805, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): Educaci\u00f3n F\u00edsica", "materias": ["12717","12723","12729","12735","14296"]},
                             { "num_error":  2806, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): Religi\u00f3n / Atenci\u00f3n Educativa", "materias": ["12743","14290","12741","14272","14284","12745","12746","12747"]},
                             { "num_error":  2807, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): Ciencias Sociales", "materias": ["14114","14115","14116","14117","14463","14515"]},
-                            { "num_error":  2808, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): Idiomas", "materias": ["12736","12737","12738"]},
-                            { "num_error":  2809, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): 2ª Lengua", "materias": ["13814","13815","13816"]},
+                            { "num_error":  2808, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): Idiomas", "materias": ["12736"]},
+                            { "num_error":  2809, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): 2ª Lengua", "materias": ["13815","13816"]},
                             { "num_error":  2810, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 2\u00ba PRIM. ): Lenguas propias", "materias": ["12739","12740"]}
                         ]
                     },"3":{
@@ -10391,11 +10163,11 @@
                             { "num_error": 2901, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Ciencias Sociales","materias": ["14118","14121","14120","14119"]},
                             { "num_error": 2902, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Educaci\u00f3n F\u00edsica","materias": ["12754","12772","12766","12760"]},
                             { "num_error": 2903, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Educaci\u00f3n Pl\u00e1stica y Visual","materias": ["12751","12769","13877","13878","12763","12757"]},
-                            { "num_error": 2904, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Idiomas","materias": ["12775","12774","12773"]},
+                            { "num_error": 2904, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Idiomas","materias": ["12773"]},
                             { "num_error": 2905, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Matem\u00e1ticas","materias": ["12753","12771","12765","12759"]},
                             { "num_error": 2906, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): M\u00fasica y Danza","materias": ["12752","12770","12764","12758"]},
-                            { "num_error": 2907, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Religi\u00f3n / Atenci\u00f3n Educativa","materias": ["12778","12779","12780","12781","12782","12783","12784"]},
-                            { "num_error": 2908, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): 2ª Lengua","materias": ["13819","13818","13817"]},
+                            { "num_error": 2907, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Religi\u00f3n / Atenci\u00f3n Educativa","materias": ["12778","12780","12782","12783","12784"]},
+                            { "num_error": 2908, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): 2ª Lengua","materias": ["13819","13818"]},
                             { "num_error": 2909, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (3\u00ba PRIM): Lenguas propias","materias": ["12776","12777"]}
                         ]
                     },"4":{
@@ -10408,8 +10180,8 @@
                             { "num_error": 3005, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): Educaci\u00f3n F\u00edsica", "materias": ["12791","12797","12803","12809","14298"]},
                             { "num_error": 3006, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): Religi\u00f3n / Atenci\u00f3n Educativa", "materias": ["12815","14274","14286","12817","14292","12819","12820","12821"]},
                             { "num_error": 3008, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): Ciencias Sociales", "materias": ["14122","14123","14124","14125","14469","14517"]},
-                            { "num_error": 3009, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): Idiomas","materias": ["12810","12811","12812"]},
-                            { "num_error": 3010, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): 2ª Lengua","materias": ["13820","13821","13822"]},
+                            { "num_error": 3009, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): Idiomas","materias": ["12810"]},
+                            { "num_error": 3010, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): 2ª Lengua","materias": ["13821","13822"]},
                             { "num_error": 3011, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias ( 4\u00ba PRIM. ): Lenguas propias","materias": ["12813","12814"]}
                         ]
                     }
@@ -10421,11 +10193,11 @@
                             { "num_error": 3102, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Educaci\u00f3n en Valores C\u00edvicos y \u00e9ticos","materias": ["12829","12850","13872","12843","12836"]},
                             { "num_error": 3103, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Educaci\u00f3n F\u00edsica","materias": ["12828","12849","12842","12835"]},
                             { "num_error": 3104, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Educaci\u00f3n Pl\u00e1stica y Visual","materias": ["12825","12846","13881","13882","12839","12832"]},
-                            { "num_error": 3105, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Idiomas","materias": ["12853","12852","12851"]},
+                            { "num_error": 3105, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Idiomas","materias": ["12851"]},
                             { "num_error": 3106, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Matem\u00e1ticas","materias": ["12827","12848","12841","12834"]},
                             { "num_error": 3107, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): M\u00fasica y Danza","materias": ["12826","12847","12840","12833"]},
-                            { "num_error": 3108, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Religi\u00f3n / Atenci\u00f3n Educativa","materias": ["12859","12860","12861","12862","12863","12864","12866"]},
-                            { "num_error": 3109, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): 2ª Lengua","materias": ["12856","12855","12854"]},
+                            { "num_error": 3108, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Religi\u00f3n / Atenci\u00f3n Educativa","materias": ["12859","12861","12863","12864","12866"]},
+                            { "num_error": 3109, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): 2ª Lengua","materias": ["12856","12855"]},
                             { "num_error": 3109, "min":0, "max" : 2, "error": "Error, incompatibilidad de materias (5\u00ba PRIM): Lenguas propias","materias": ["12857","12858"]}
                         ]
                     },"6":{
@@ -10439,8 +10211,8 @@
                             { "num_error": 3206, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): Educaci\u00f3n en Valores C\u00edvicos y \u00e9ticos", "materias": ["12873","12880","12887","12894","14479","14520"]},
                             { "num_error": 3207, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): Religi\u00f3n / Atenci\u00f3n Educativa", "materias": ["12903","14276","14288","12905","14294","12907","12908","12909"]},
                             { "num_error": 3208, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): Ciencias Sociales", "materias": ["14130","14131","14132","14133","14478","14519"]},
-                            { "num_error": 3209, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): Idiomas", "materias": ["12895","12896","12897"]},
-                            { "num_error": 3210, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): 2ª Lengua", "materias": ["12898","12899","12900"]},
+                            { "num_error": 3209, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): Idiomas", "materias": ["12895"]},
+                            { "num_error": 3210, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): 2ª Lengua", "materias": ["12899","12900"]},
                             { "num_error": 3211, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias ( 6\u00ba PRIM. ): Lenguas propias", "materias": ["12901","12902"]}
                         ]
                     }
@@ -10529,7 +10301,7 @@
                             { "num_error": 3716, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Cultura Cl\u00e1sica II", "materias": ["13101","13122","13143","13164"]},
                             { "num_error": 3717, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Filosof\u00eda", "materias": ["13102","13123","13144","13165"]},
                             { "num_error": 3718, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Oratoria y Escritura", "materias": ["13103","13124","13145","13166"]},
-                            { "num_error": 3719, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13104","13125","13146","13167"]},
+                            { "num_error": 3719, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13104"]},
                             { "num_error": 3720, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Artes Esc\u00e9nicas y Danza", "materias": ["13105","13126","13147","13168"]},
                             { "num_error": 3721, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Primera Lengua Extranjera", "materias": ["13170","13171","13172","13173","13174","13175"]},
                             { "num_error": 3722, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Segunda Lengua Extranjera", "materias": ["13176","13177","13178","13179","13180","13181"]},
@@ -10551,7 +10323,7 @@
                             { "num_error": 3727, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias ( 4\u00ba ESO. ): Cruce de elecci\u00f3n de 1 optativa", 
                                 "materias": [
                                     "13105","13126","13147","13168",
-                                    "13104","13125","13146","13167",
+                                    "13104",
                                     "13099","13120","13141","13162","14335",
                                     "13101","13122","13143","13164",
                                     "13102","13123","13144","13165",
@@ -10579,7 +10351,7 @@
                         "incompatibilidad":[
                             { "num_error": 5000, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Anatom\u00eda Aplicada", "materias": ["13200","13242","13228","13214"]},
                             { "num_error": 5001, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Biolog\u00eda, Geolog\u00eda y Ciencias Ambientales", "materias": ["13195","13237","13223","13209"]},
-                            { "num_error": 5002, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13203","13245","13231","13217"]},
+                            { "num_error": 5002, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13203"]},
                             { "num_error": 5003, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Dibujo T\u00e9cnico I", "materias": ["13197","13239","13225","13211"]},
                             { "num_error": 5004, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Educaci\u00f3n F\u00edsica", "materias": ["13191","13233","14015","13219","13205"]},
                             { "num_error": 5005, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Educaci\u00f3n para la Ciudadania y los Derechos Humanos", "materias": ["13201","13243","13229","13215"]},
@@ -10587,7 +10359,7 @@
                             { "num_error": 5007, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): F\u00edsica y Qu\u00edmica", "materias": ["13198","13240","13226","13212"]},
                             { "num_error": 5008, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Inform\u00e1tica I", "materias": ["13199","13241","13227","13213"]},
                             { "num_error": 5009, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Matem\u00e1ticas I", "materias": ["13194","13236","13222","13208"]},
-                            { "num_error": 5011, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Oratoria", "materias": ["13204","13246","13232","13218"]},
+                            { "num_error": 5011, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Oratoria", "materias": ["13204"]},
                             { "num_error": 5012, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Primera Lengua Extranjera I:", "materias": ["13251","13252","13249","13250","13247","13248"]},
                             { "num_error": 5013, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Religi\u00f3n", "materias": ["13259","13260","13261","13262"]},
                             { "num_error": 5014, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Segunda Lengua Extranjera I:", "materias": ["13257","13258","13255","13256","13253","13254"]},
@@ -10596,7 +10368,7 @@
                             { "num_error": 5017, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Uni\u00f3n Europea", "materias": ["13202","13244","13230","13216"]},
                             { "num_error": 5018, "min":2, "max" : 3, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cruce Optativas de Modalidad", "materias": ["13195","13237","13223","13209","13196","13238","13224","13210","13197","13239","13225","13211","13198","13240","13226","13212"]},
                             { "num_error": 5019, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cruce de Optatividad (4 horas):", "materias": ["13257","13258","13255","13256","13253","13254","13199","13241","13227","13213","13200","13242","13228","13214"]},
-                            { "num_error": 5010, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cruce de Optatividad (1 hora)", "materias": ["13202","13244","13230","13216","13203","13245","13231","13217","13204","13246","13232","13218","13201","13243","13229","13215","13968","13971","13970","13969"]},
+                            { "num_error": 5010, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cruce de Optatividad (1 hora)", "materias": ["13202","13244","13230","13216","13203","13204","13201","13243","13229","13215","13968","13971","13970","13969"]},
                             { "num_error": 5011, "min":4, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC CyT): Cruce de Optatividad extendida a otras especialidades", "materias": [
                                 "13334","13388","13370","13352","13335","13389","13371","13353","13195","13237","13223","13209","13337","13391","13373","13355","13342","13396",
                                 "13378","13360","13336","13390","13372","13354","13341","13395","13377","13359","13197","13239","13225","13211","13268","13304","13292","13280",
@@ -10611,7 +10383,7 @@
                         "incompatibilidad":[
                             { "num_error": 6001, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Biolog\u00eda", "materias": ["13482","13536","13518","13500"]},
                             { "num_error": 6002, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Ciencias de la Tierra y del Medio Ambiente", "materias": ["13984","13987","13986","13985"]},
-                            { "num_error": 6003, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13492","13546","13528","13510"]},
+                            { "num_error": 6003, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13492"]},
                             { "num_error": 6004, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Dibujo T\u00e9cnico II", "materias": ["13485","13539","13521","13503"]},
                             { "num_error": 6005, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Educaci\u00f3n F\u00edsica y Vida Activa", "materias": ["13491","13545","13527","13509"]},
                             { "num_error": 6006, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): F\u00edsica", "materias": ["13486","13540","13522","13504"]},
@@ -10621,9 +10393,9 @@
                             { "num_error": 6010, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Inform\u00e1tica II", "materias": ["13488","13542","14336","13524","13506"]},
                             { "num_error": 6013, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Matem\u00e1ticas II", "materias": ["13480","13534","13516","13498"]},
                             { "num_error": 6013, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Matem\u00e1ticas aplicadas a las CCSS II", "materias": ["13481","13535","13517","13499"]},
-                            { "num_error": 6014, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Oratoria", "materias": ["13493","13547","13529","13511"]},
+                            { "num_error": 6014, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Oratoria", "materias": ["13493"]},
                             { "num_error": 6015, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Primera Lengua Extranjera II", "materias": ["13553","13554","13551","13552","13549","13550"]},
-                            { "num_error": 6018, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13494","13548","13530","13512"]},
+                            { "num_error": 6018, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13494"]},
                             { "num_error": 6019, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Psicolog\u00eda", "materias": ["13489","13543","13525","13507"]},
                             { "num_error": 6020, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Qu\u00edmica", "materias": ["13487","13541","13523","13505"]},
                             { "num_error": 6021, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Segunda Lengua Extranjera II", "materias": ["13559","13560","13557","13558","13555","13556"]},
@@ -10634,9 +10406,9 @@
                             { "num_error": 6027, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Cruce optativa de 3h, Inf, Leng. Ext II y Psicolog\u00eda", 
                                 "materias": ["13488","13542","14336","13524","13506","13559","13560","13557","13558","13555","13556","13489","13543","13525","13507"]},
                             { "num_error": 6028, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Cruce optativa de 1h, Ed. F\u00eds....", 
-                                "materias": ["13491","13545","13527","13509","13494","13548","13530","13512","13490","13544","13526","13508","13492","13546","13528","13510","13493","13547","13529","13511"]},
+                                "materias": ["13491","13545","13527","13509","13494","13490","13544","13526","13508","13492","13493"]},
                             { "num_error": 6029, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Cruce optativa de 3h con 1h", 
-                                "materias": ["13488","13542","14336","13524","13506","13559","13560","13557","13558","13555","13556","13489","13543","13525","13507","13491","13545","13527","13509","13494","13548","13530","13512","13490","13544","13526","13508","13492","13546","13528","13510","13493","13547","13529","13511"]},
+                                "materias": ["13488","13542","14336","13524","13506","13559","13560","13557","13558","13555","13556","13489","13543","13525","13507","13491","13545","13527","13509","13494","13490","13544","13526","13508","13492","13493"]},
                             { "num_error": 6030, "min" : 2, "max" : 3, "error": "Error, incompatibilidad de materias (2\u00ba BAC CyT): Cruce de modalidad", 
                                 "materias": ["13482","13536","13518","13500","13483","13537","13519","13501","13484","13538","13520","13502","13485","13539","13521","13503","13486","13540","13522","13504","13487","13541","13523","13505"]}
                             ]
@@ -10646,7 +10418,7 @@
                         "obligatorias":["13266"],
                         "incompatibilidad":[
                             { "num_error": 5100, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Anatom\u00eda Aplicada", "materias": ["13960","13963","13962","13961"]},
-                            { "num_error": 5101, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13274","13310","13298","13286"]},
+                            { "num_error": 5101, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13274"]},
                             { "num_error": 5102, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Econom\u00eda", "materias": ["13268","13304","13292","13280"]},
                             { "num_error": 5103, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Educaci\u00f3n F\u00edsica", "materias": ["13264","13300","14016","13288","13276"]},
                             { "num_error": 5104, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Educaci\u00f3n para la Ciudadania y los Derechos Humanos", "materias": ["13272","13308","13296","13284"]},
@@ -10655,7 +10427,7 @@
                             { "num_error": 5107, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Inform\u00e1tica I", "materias": ["13271","13307","13295","13283"]},
                             { "num_error": 5108, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Literatural Universal", "materias": ["13270","13306","13294","13282"]},
                             { "num_error": 5109, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Matem\u00e1ticas Aplicadas a las Ciencias Sociales I", "materias": ["13267","13303","13291","13279"]},
-                            { "num_error": 5110, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Oratoria", "materias": ["13275","13311","13299","13287"]},
+                            { "num_error": 5110, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Oratoria", "materias": ["13275"]},
                             { "num_error": 5111, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Primera Lengua Extranjera I:", "materias": ["13316","13317","13314","13315","13312","13313"]},
                             { "num_error": 5112, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Religi\u00f3n Cat\u00f3lica", "materias": ["13326","13327","13328","13329"]},
                             { "num_error": 5113, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Segunda Lengua Extranjera I:", "materias": ["13322","13323","13320","13321","13318","13319"]},
@@ -10665,7 +10437,7 @@
                             { "num_error": 5117, "min":1, "max" : 3, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cruce Optativas de Modalidad", "materias": ["13325","13268","13304","13292","13280","13269","13305","13293","13281","13270","13306","13294","13282"]},
                             { "num_error": 5118, "min":3, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cruce de Modalidad (todas)", "materias": ["13324","13267","13303","13291","13279","13325","13268","13304","13292","13280","13269","13305","13293","13281","13270","13306","13294","13282"]},
                             { "num_error": 5119, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cruce de Optatividad (4 horas):", "materias": ["13322","13323","13320","13321","13318","13319","13271","13307","13295","13283","13960","13963","13962","13961"]},
-                            { "num_error": 5120, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cruce de Optatividad (1 hora)", "materias": ["13272","13308","13296","13284","13972","13975","13974","13973","13273","13309","13297","13285","13274","13310","13298","13286","13275","13311","13299","13287"]},
+                            { "num_error": 5120, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cruce de Optatividad (1 hora)", "materias": ["13272","13308","13296","13284","13972","13975","13974","13973","13273","13309","13297","13285","13274","13275"]},
                             { "num_error": 5121, "min":4, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC HyCS): Cruce de Optatividad extendida a otras especialidades", "materias": [
                                 "13334","13388","13370","13352","13335","13389","13371","13353","13195","13237","13223","13209","13337","13391","13373","13355","13342","13396","13378","13360",
                                 "13336","13390","13372","13354","13341","13395","13377","13359","13197","13239","13225","13211","13268","13304","13292","13280","13424","13454","13444","13434",
@@ -10676,7 +10448,7 @@
                     },"2":{
                         "obligatorias":["13568"],
                         "incompatibilidad":[
-                            { "num_error": 6101, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13578","13623","13608","13593"]},
+                            { "num_error": 6101, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13578"]},
                             { "num_error": 6102, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Educaci\u00f3n F\u00edsica y Vida Activa", "materias": ["13577","13622","13607","13592"]},
                             { "num_error": 6103, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Empresas y Dise\u00f1o de Modelos de Negocio", "materias": ["13570","13615","13600","13585"]},
                             { "num_error": 6104, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Fundamentos de Administraci\u00f3n y Gesti\u00f3n", "materias": ["13988","13991","13990","13989"]},
@@ -10686,9 +10458,9 @@
                             { "num_error": 6108, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Historia del Arte", "materias": ["13572","13617","13602","13587"]},
                             { "num_error": 6109, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Inform\u00e1tica II", "materias": ["13573","13618","14337","13603","13588"]},
                             { "num_error": 6111, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Matem\u00e1ticas Aplicadas a las Ciencias Sociales II", "materias": ["13569","13614","13599","13584"]},
-                            { "num_error": 6112, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Oratoria", "materias": ["13579","13624","13609","13594"]},
+                            { "num_error": 6112, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Oratoria", "materias": ["13579"]},
                             { "num_error": 6113, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Primera Lengua Extranjera II", "materias": ["13630","13631","13628","13629","13626","13627"]},
-                            { "num_error": 6116, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13580","13625","13610","13595"]},
+                            { "num_error": 6116, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13580"]},
                             { "num_error": 6117, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Psicolog\u00eda", "materias": ["13575","13620","13605","13590"]},
                             { "num_error": 6118, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Segunda Lengua Extranjera II", "materias": ["13636","13637","13634","13635","13632","13633"]},
                             { "num_error": 6121, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Uni\u00f3n Europea", "materias": ["13576","13621","13606","13591"]},
@@ -10697,9 +10469,9 @@
                             { "num_error": 6123, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cruce optativa de 3h, Inf, Leng. Ext II y Psicolog\u00eda", 
                                 "materias": ["13573","13618","14337","13603","13588","13636","13637","13634","13635","13632","13633","13575","13620","13605","13590"]},
                             { "num_error": 6124, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cruce optativa de 1h, Ed. F\u00eds....", 
-                                "materias": ["13577","13622","13607","13592","13580","13625","13610","13595","13576","13621","13606","13591","13578","13623","13608","13593","13579","13624","13609","13594"]},
+                                "materias": ["13577","13622","13607","13592","13580","13576","13621","13606","13591","13578","13579"]},
                             { "num_error": 6125, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cruce optativa de 3h con 1h", 
-                                "materias": ["13577","13622","13607","13592","13580","13625","13610","13595","13576","13621","13606","13591","13578","13623","13608","13593","13579","13624","13609","13594","13573","13618","14337","13603","13588","13636","13637","13634","13635","13632","13633","13575","13620","13605","13590"]},
+                                "materias": ["13577","13622","13607","13592","13580","13576","13621","13606","13591","13578","13579","13573","13618","14337","13603","13588","13636","13637","13634","13635","13632","13633","13575","13620","13605","13590"]},
                             { "num_error": 6126, "min" : 1, "max" : 3, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cruce de modalidad", 
                                 "materias": ["13639","13570","13615","13600","13585","13571","13616","13601","13586","13572","13617","13602","13587"]},
                             { "num_error": 6127, "min" : 3, "max" : 4, "error": "Error, incompatibilidad de materias (2\u00ba BAC HyCS): Cruce obligatorias con modalidad", 
@@ -10715,7 +10487,7 @@
                             { "num_error": 5202, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Artes Esc\u00e9nicas I", "materias": ["13335","13389","13371","13353"]},
                             { "num_error": 5203, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Coro y T\u00e9cnica Vocal I", "materias": ["13337","13391","13373","13355"]},
                             { "num_error": 5204, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cultura Audiovisual", "materias": ["13342","13396","13378","13360"]},
-                            { "num_error": 5205, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13347","13401","13383","13365"]},
+                            { "num_error": 5205, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13347"]},
                             { "num_error": 5206, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Dibujo Art\u00edstico I", "materias": ["13336","13390","13372","13354"]},
                             { "num_error": 5207, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Dibujo T\u00e9cnico Aplicado a las Artes Pl\u00e1sticas y al Dise\u00f1o I", "materias": ["13341","13395","13377","13359"]},
                             { "num_error": 5208, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Educaci\u00f3n F\u00edsica", "materias": ["13331","13385","13367","13349"]},
@@ -10723,7 +10495,7 @@
                             { "num_error": 5210, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Filosof\u00eda", "materias": ["13332","13386","13368","13350"]},
                             { "num_error": 5211, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Inform\u00e1tica I", "materias": ["13343","13397","13379","13361"]},
                             { "num_error": 5212, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Lenguaje y Pr\u00e1ctica Musical", "materias": ["13338","13392","13374","13356"]},
-                            { "num_error": 5213, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Oratoria", "materias": ["13348","13402","13384","13366"]},
+                            { "num_error": 5213, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Oratoria", "materias": ["13348"]},
                             { "num_error": 5214, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Primera Lengua Extranjera I:", "materias": ["13407","13408","13405","13406","13403","13404"]},
                             { "num_error": 5215, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Proyectos Art\u00edsticos", "materias": ["13340","13394","13376","13358"]},
                             { "num_error": 5216, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Religi\u00f3n", "materias": ["13415","13416","13417","13418"]},
@@ -10736,7 +10508,7 @@
                             { "num_error": 5223, "min":3, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cruce de Modalidad (todas)", "materias": ["13335","13389","13371","13353","13334","13388","13370","13352","13337","13391","13373","13355","13338","13392","13374","13356","13342","13396","13378","13360"]},
                             { "num_error": 5224, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cruce de Optatividad (4 horas)", "materias": ["13413","13414","13411","13412","13409","13410","13343","13397","13379","13361","13344","13398","13380","13362"]},
                             { "num_error": 5225, "min":3, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cruce de Optatividad y Modalidad", "materias": ["13413","13414","13411","13412","13409","13410","13343","13397","13379","13361","13344","13398","13380","13362","13335","13389","13371","13353","13335","13389","13371","13353","13337","13391","13373","13355","13338","13392","13374","13356","13342","13396","13378","13360"]},
-                            { "num_error": 5226, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cruce de Optatividad (1 hora)", "materias": ["13345","13399","13381","13363","13976","13979","13978","13977","13346","13400","13382","13364","13347","13401","13383","13365","13348","13402","13384","13366"]},
+                            { "num_error": 5226, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cruce de Optatividad (1 hora)", "materias": ["13345","13399","13381","13363","13976","13979","13978","13977","13346","13400","13382","13364","13347","13348"]},
                             { "num_error": 5227, "min":4, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - M\u00fas. y AE): Cruce de Optatividad extendida a otras especialidades", "materias": [
                                 "13344","13398","13380","13362","13413","13414","13411","13412","13409","13410","13343","13397","13379","13361",
                                 "13334","13388","13370","13352","13335","13389","13371","13353","13195","13237","13223","13209","13337","13391","13373","13355","13342","13396","13378","13360",
@@ -10753,7 +10525,7 @@
                             { "num_error": 5302, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Artes Esc\u00e9nicas I", "materias": ["13335","13389","13371","13353"]},
                             { "num_error": 5303, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Coro y T\u00e9cnica Vocal I", "materias": ["13337","13391","13373","13355"]},
                             { "num_error": 5304, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cultura Audiovisual", "materias": ["13342","13396","13378","13360"]},
-                            { "num_error": 5305, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13347","13401","13383","13365"]},
+                            { "num_error": 5305, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13347"]},
                             { "num_error": 5306, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Dibujo Art\u00edstico I", "materias": ["13336","13390","13372","13354"]},
                             { "num_error": 5307, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Dibujo T\u00e9cnico Aplicado a las Artes Pl\u00e1sticas y al Dise\u00f1o I", "materias": ["13341","13395","13377","13359"]},
                             { "num_error": 5308, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Educaci\u00f3n F\u00edsica", "materias": ["13331","13385","13367","13349"]},
@@ -10761,7 +10533,7 @@
                             { "num_error": 5310, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Filosof\u00eda", "materias": ["13332","13386","13368","13350"]},
                             { "num_error": 5311, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Inform\u00e1tica I", "materias": ["13343","13397","13379","13361"]},
                             { "num_error": 5312, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Lenguaje y Pr\u00e1ctica Musical", "materias": ["13338","13392","13374","13356"]},
-                            { "num_error": 5313, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Oratoria", "materias": ["13348","13402","13384","13366"]},
+                            { "num_error": 5313, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Oratoria", "materias": ["13348"]},
                             { "num_error": 5314, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Primera Lengua Extranjera I:", "materias": ["13407","13408","13405","13406","13403","13404"]},
                             { "num_error": 5315, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Proyectos Art\u00edsticos", "materias": ["13340","13394","13376","13358"]},
                             { "num_error": 5316, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Religi\u00f3n", "materias": ["13415","13416","13417","13418"]},
@@ -10772,7 +10544,7 @@
                             { "num_error": 5321, "min":2, "max" : 3, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cruce Optativas de Modalidad", "materias": ["13339","13393","13375","13357","13340","13394","13376","13358","13342","13396","13378","13360","13341","13395","13377","13359"]},
                             { "num_error": 5322, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cruce de Optatividad (4 horas)", "materias": ["13413","13414","13411","13412","13409","13410","13343","13397","13379","13361","13344","13398","13380","13362"]},
                             { "num_error": 5323, "min":2, "max" : 3, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cruce de Optatividad y Modalidad", "materias": ["13413","13414","13411","13412","13409","13410","13343","13397","13379","13361","13344","13398","13380","13362","13339","13393","13375","13357","13340","13394","13376","13358","13342","13396","13378","13360","13341","13395","13377","13359"]},
-                            { "num_error": 5324, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cruce de Optatividad (1 hora)", "materias": ["13345","13399","13381","13363","13976","13979","13978","13977","13346","13400","13382","13364","13347","13401","13383","13365","13348","13402","13384","13366"]},
+                            { "num_error": 5324, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cruce de Optatividad (1 hora)", "materias": ["13345","13399","13381","13363","13976","13979","13978","13977","13346","13400","13382","13364","13347","13348"]},
                             { "num_error": 5325, "min":4, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC Artes - AP, Imagen y S): Cruce de Optatividad extendida a otras especialidades", "materias": [
                                 "13344","13398","13380","13362","13413","13414","13411","13412","13409","13410","13343","13397","13379","13361",
                                 "13334","13388","13370","13352","13335","13389","13371","13353","13195","13237","13223","13209","13337","13391","13373","13355","13342","13396","13378","13360","13336",
@@ -10786,7 +10558,7 @@
                             { "num_error": 6201, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): An\u00e1lisis Musical II", "materias": ["13648","13711","13690","13669"]},
                             { "num_error": 6202, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Artes Esc\u00e9nicas II", "materias": ["13649","13712","13691","13670"]},
                             { "num_error": 6203, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Coro y T\u00e9cnica Vocal II", "materias": ["13651","13714","13693","13672"]},
-                            { "num_error": 6204, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13663","13726","13705","13684"]},
+                            { "num_error": 6204, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13663"]},
                             { "num_error": 6205, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Dibujo Art\u00edstico II", "materias": ["13650","13713","13692","13671"]},
                             { "num_error": 6206, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Dibujo T\u00e9cnico Aplicado a las Artes Pl\u00e1sticas y al Dise\u00f1o II", "materias": ["13657","13720","13699","13678"]},
                             { "num_error": 6207, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Dise\u00f1o", "materias": ["13656","13719","13698","13677"]},
@@ -10798,9 +10570,9 @@
                             { "num_error": 6213, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Imagen y Sonido", "materias": ["13659","13722","13701","13680"]},
                             { "num_error": 6214, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Inform\u00e1tica II", "materias": ["13658","13721","13700","13679"]},
                             { "num_error": 6216, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Literatura Dram\u00e1tica", "materias": ["13653","13716","13695","13674"]},
-                            { "num_error": 6217, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Oratoria", "materias": ["13664","13727","13706","13685"]},
+                            { "num_error": 6217, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Oratoria", "materias": ["13664"]},
                             { "num_error": 6218, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Primera Lengua Extranjera II", "materias": ["13733","13734","13731","13732","13729","13730"]},
-                            { "num_error": 6221, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13665","13728","13707","13686"]},
+                            { "num_error": 6221, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13665"]},
                             { "num_error": 6222, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Psicolog\u00eda", "materias": ["13660","13723","13702","13681"]},
                             { "num_error": 6223, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Segunda Lengua Extranjera II", "materias": ["13739","13740","13737","13738","13735","13736"]},
                             { "num_error": 6226, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): T\u00e9cnicas de Expresi\u00f3n Gr\u00e1fico-Pl\u00e1stica", "materias": ["13654","13717","13696","13675"]},
@@ -10810,9 +10582,9 @@
                             { "num_error": 6230, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cruce optativa de 3h, Inf, Leng. Ext II y Psicolog\u00eda", 
                                 "materias": ["13658","13721","13700","13679","13739","13740","13737","13738","13735","13736","13660","13723","13702","13681"]},
                             { "num_error": 6231, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cruce optativa de 1h, Ed. F\u00eds....", 
-                                "materias": ["13662","13725","13704","13683","13665","13728","13707","13686","13661","13724","13703","13682","13663","13726","13705","13684","13664","13727","13706","13685"]},
+                                "materias": ["13662","13725","13704","13683","13665","13661","13724","13703","13682","13663","13664"]},
                             { "num_error": 6232, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cruce optativa de 3h con 1h", 
-                                "materias": ["13658","13721","13700","13679","13739","13740","13737","13738","13735","13736","13660","13723","13702","13681","13662","13725","13704","13683","13665","13728","13707","13686","13661","13724","13703","13682","13663","13726","13705","13684","13664","13727","13706","13685"]},
+                                "materias": ["13658","13721","13700","13679","13739","13740","13737","13738","13735","13736","13660","13723","13702","13681","13662","13725","13704","13683","13665","13661","13724","13703","13682","13663","13664"]},
                             { "num_error": 6233, "min" : 1, "max" : 3, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cruce de modalidad", 
                                 "materias": ["13651","13714","13693","13672","13652","13715","13694","13673","13653","13716","13695","13674"]},
                             { "num_error": 6234, "min" : 3, "max" : 4, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - M\u00fas. y AE): Cruce obligatorias con modalidad", 
@@ -10824,7 +10596,7 @@
                             { "num_error": 6301, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): An\u00e1lisis Musical II", "materias": ["13648","13711","13690","13669"]},
                             { "num_error": 6302, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Artes Esc\u00e9nicas II", "materias": ["13649","13712","13691","13670"]},
                             { "num_error": 6303, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Coro y T\u00e9cnica Vocal II", "materias": ["13651","13714","13693","13672"]},
-                            { "num_error": 6304, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13663","13726","13705","13684"]},
+                            { "num_error": 6304, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13663"]},
                             { "num_error": 6305, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Dibujo Art\u00edstico II", "materias": ["13650","13713","13692","13671"]},
                             { "num_error": 6306, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Dibujo T\u00e9cnico Aplicado a las Artes Pl\u00e1sticas y al Dise\u00f1o II", "materias": ["13657","13720","13699","13678"]},
                             { "num_error": 6307, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Dise\u00f1o", "materias": ["13656","13719","13698","13677"]},
@@ -10836,9 +10608,9 @@
                             { "num_error": 6313, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Imagen y Sonido", "materias": ["13659","13722","13701","13680"]},
                             { "num_error": 6314, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Inform\u00e1tica II", "materias": ["13658","13721","13700","13679"]},
                             { "num_error": 6316, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Literatura Dram\u00e1tica", "materias": ["13653","13716","13695","13674"]},
-                            { "num_error": 6317, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Oratoria", "materias": ["13664","13727","13706","13685"]},
+                            { "num_error": 6317, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Oratoria", "materias": ["13664"]},
                             { "num_error": 6318, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Primera Lengua Extranjera II", "materias": ["13733","13734","13731","13732","13729","13730"]},
-                            { "num_error": 6321, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13665","13728","13707","13686"]},
+                            { "num_error": 6321, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13665"]},
                             { "num_error": 6322, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Psicolog\u00eda", "materias": ["13660","13723","13702","13681"]},
                             { "num_error": 6323, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Segunda Lengua Extranjera II", "materias": ["13739","13740","13737","13738","13735","13736"]},
                             { "num_error": 6326, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): T\u00e9cnicas de Expresi\u00f3n Gr\u00e1fico-Pl\u00e1stica", "materias": ["13654","13717","13696","13675"]},
@@ -10846,9 +10618,9 @@
                             { "num_error": 6328, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Cruce optativa de 3h, Inf, Leng. Ext II y Psicolog\u00eda", 
                                 "materias": ["13658","13721","13700","13679","13739","13740","13737","13738","13735","13736","13660","13723","13702","13681"]},
                             { "num_error": 6329, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Cruce optativa de 1h, Ed. F\u00eds....", 
-                                "materias": ["13662","13725","13704","13683","13665","13728","13707","13686","13661","13724","13703","13682","13663","13726","13705","13684","13664","13727","13706","13685"]},
+                                "materias": ["13662","13725","13704","13683","13665","13661","13724","13703","13682","13663","13664"]},
                             { "num_error": 6330, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Cruce optativa de 3h con 1h", 
-                                "materias": ["13658","13721","13700","13679","13739","13740","13737","13738","13735","13736","13660","13723","13702","13681","13662","13725","13704","13683","13665","13728","13707","13686","13661","13724","13703","13682","13663","13726","13705","13684","13664","13727","13706","13685"]},
+                                "materias": ["13658","13721","13700","13679","13739","13740","13737","13738","13735","13736","13660","13723","13702","13681","13662","13725","13704","13683","13665","13661","13724","13703","13682","13663","13664"]},
                             { "num_error": 6231, "min" : 1, "max" : 3, "error": "Error, incompatibilidad de materias (2\u00ba BAC Artes - AP, Imagen y S): Cruce de modalidad", 
                                 "materias": ["13654","13717","13696","13675","13655","13718","13697","13676","13656","13719","13698","13677","13657","13720","13699","13678"]}
                         ]
@@ -10858,46 +10630,46 @@
                         "obligatorias":["13422"],
                         "incompatibilidad":[
                             { "num_error": 5400, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Anatom\u00eda Aplicada", "materias": ["13964","13967","13966","13965"]},
-                            { "num_error": 5401, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13428","13458","13448","13438"]},
+                            { "num_error": 5401, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13428"]},
                             { "num_error": 5402, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Econom\u00eda, Emprendimiento y Actividad Empresarial", "materias": ["13424","13454","13444","13434"]},
                             { "num_error": 5403, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Educaci\u00f3n F\u00edsica", "materias": ["13420","13450","13440","13430"]},
                             { "num_error": 5404, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Educaci\u00f3n para la Ciudadania y los Derechos Humanos", "materias": ["13426","13456","13446","13436"]},
                             { "num_error": 5405, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Filosof\u00eda", "materias": ["13421","13451","13441","13431"]},
                             { "num_error": 5406, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Inform\u00e1tica I", "materias": ["13425","13455","13445","13435"]},
                             { "num_error": 5407, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Matem\u00e1ticas Generales", "materias": ["13423","13453","13443","13433"]},
-                            { "num_error": 5408, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Oratoria", "materias": ["13429","13459","13449","13439"]},
+                            { "num_error": 5408, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Oratoria", "materias": ["13429"]},
                             { "num_error": 5409, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Primera Lengua Extranjera I:", "materias": ["13464","13465","13462","13463","13460","13461"]},
                             { "num_error": 5410, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Religi\u00f3n", "materias": ["13472","13473","13474","13475"]},
                             { "num_error": 5411, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Segunda Lengua Extranjera I:", "materias": ["13470","13471","13468","13469","13466","13467"]},
                             { "num_error": 5412, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Sociedad, Medio Ambiente y Territorios Sostenibles", "materias": ["13980","13983","13982","13981"]},
                             { "num_error": 5413, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Uni\u00f3n Europea", "materias": ["13427","13457","13447","13437"]},
                             { "num_error": 5414, "min":0, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Cruce de Optatividad (4 horas)", "materias": ["13470","13471","13468","13469","13466","13467","13425","13455","13445","13435","13964","13967","13966","13965"]},
-                            { "num_error": 5415, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Cruce de Optatividad (1 hora)", "materias": ["13426","13456","13446","13436","13980","13983","13982","13981","13427","13457","13447","13437","13428","13458","13448","13438","13429","13459","13449","13439"]},
+                            { "num_error": 5415, "min":1, "max" : 1, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Cruce de Optatividad (1 hora)", "materias": ["13426","13456","13446","13436","13980","13983","13982","13981","13427","13457","13447","13437","13428","13429"]},
                             { "num_error": 5416, "min":4, "max" : 4, "error": "Error, incompatibilidad de materias (1\u00ba BAC General): Cruce de Optatividad extendida a otras especialidades", "materias": ["13334","13388","13370","13352","13335","13389","13371","13353","13195","13237","13223","13209","13337","13391","13373","13355","13342","13396","13378","13360","13336","13390","13372","13354","13341","13395","13377","13359","13197","13239","13225","13211","13268","13304","13292","13280","13424","13454","13444","13434","13198","13240","13226","13212","13325","13269","13305","13293","13281","13324","13338","13392","13374","13356","13270","13306","13294","13282","13267","13303","13291","13279","13423","13453","13443","13433","13194","13236","13222","13208","13340","13394","13376","13358","13196","13238","13224","13210","13339","13393","13375","13357"]}
                         ]
                     },"2":{
                         "obligatorias":["13748"],
                         "incompatibilidad":[
                             { "num_error": 6401, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Ciencias Generales", "materias": ["13749","13785","13773","13761"]},
-                            { "num_error": 6402, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13755","13791","13779","13767"]},
+                            { "num_error": 6402, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Cultura y Patrimonio de Arag\u00f3n", "materias": ["13755"]},
                             { "num_error": 6403, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Educaci\u00f3n F\u00edsica y Vida Activa", "materias": ["13754","13790","13778","13766"]},
                             { "num_error": 6404, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Historia de Espa\u00f1a", "materias": ["13747","13783","13771","13759"]},
                             { "num_error": 6405, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Historia de la Filosof\u00eda", "materias": ["13746","13782","13770","13758"]},
                             { "num_error": 6406, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Inform\u00e1tica II", "materias": ["13751","13787","13775","13763"]},
-                            { "num_error": 6407, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Lengua Castellana y Literatura II", "materias": ["13748","13784","13772","13760"]},
+                            { "num_error": 6407, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Lengua Castellana y Literatura II", "materias": ["13748"]},
                             { "num_error": 6408, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Movimientos Culturales y Art\u00edsticos", "materias": ["13750","13786","13774","13762"]},
-                            { "num_error": 6409, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Oratoria", "materias": ["13756","13792","13780","13768"]},
+                            { "num_error": 6409, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Oratoria", "materias": ["13756"]},
                             { "num_error": 6410, "min" : 1, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Primera Lengua Extranjera II", "materias": ["13798","13799","13796","13797","13794","13795"]},
-                            { "num_error": 6413, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13757","13793","13781","13769"]},
+                            { "num_error": 6413, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Proyecto de Investigaci\u00f3n e Innovaci\u00f3n Integrado", "materias": ["13757"]},
                             { "num_error": 6414, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Psicolog\u00eda", "materias": ["13752","13788","13776","13764"]},
                             { "num_error": 6415, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Segunda Lengua Extranjera II", "materias": ["13804","13805","13800","13801","13802","13803"]},
                             { "num_error": 6418, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Uni\u00f3n Europea", "materias": ["13753","13789","13777","13765"]},
                             { "num_error": 6419, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Cruce optativa de 3h, Inf, Leng. Ext II y Psicolog\u00eda", 
                                 "materias": ["13751","13787","13775","13763","13804","13805","13800","13801","13802","13803","13752","13788","13776","13764"]},
                             { "num_error": 6420, "min" : 0, "max" : 1, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Cruce optativa de 1h, Ed. F\u00eds....", 
-                                "materias": ["13754","13790","13778","13766","13757","13793","13781","13769","13753","13789","13777","13765","13755","13791","13779","13767","13756","13792","13780","13768"]},
+                                "materias": ["13754","13790","13778","13766","13757","13753","13789","13777","13765","13755","13756"]},
                             { "num_error": 6421, "min" : 0, "max" : 2, "error": "Error, incompatibilidad de materias (2\u00ba BAC General): Cruce optativa de 3h con 1h", 
-                                "materias": ["13751","13787","13775","13763","13804","13805","13800","13801","13802","13803","13752","13788","13776","13764","13754","13790","13778","13766","13757","13793","13781","13769","13753","13789","13777","13765","13755","13791","13779","13767","13756","13792","13780","13768"]}
+                                "materias": ["13751","13787","13775","13763","13804","13805","13800","13801","13802","13803","13752","13788","13776","13764","13754","13790","13778","13766","13757","13753","13789","13777","13765","13755","13756"]}
                         ]
                     }
                 }
@@ -11073,6 +10845,7 @@
             "767": "Asesoría de Imagen Personal Y Corporativa",
             "768": "Integración Social",
             "769": "Mecatrónica Industrial",
+            "770": "Desarrollo de Proyectos de Instalaciones Térmicas y de Fluidos",
             "775": "Curso de preparación de las pruebas de acceso a grado superior",
             "777": "Emergencias y Protección Civil",
             "778": "Diseño y Edición de Publicaciones Impresas y Multimedia",
@@ -11145,8 +10918,10 @@
             "882": "Bachillerato de Humanidades y Ciencias Sociales",
             "883": "Bachillerato de Artes",
             "884": "Bachillerato General",
+            "887": "Fabricación de Productos Farmacéuticos, Biotecnológicos y Afines",
             "888": "Redes y Estaciones de Tratamiento de Aguas",
             "889": "Actividades Domésticas y Limpiezas de Edificios",
+            "895": "Formación para la movilidad segura y sostenible",
             "897": "Servicios Administrativos",
             "898": "Electricidad y Electrónica",
             "899": "Fabricación y Montaje",
@@ -11211,6 +10986,7 @@
             "958": "Confección y Moda",
             "959": "Carrocería",
             "960": "Electromecánica de Vehículos Automóviles",
+            "961": "Conducción de Vehículos de Transporte por Carretera",
             "962": "Electromecánica de Maquinaria",
             "963": "Administración y Finanzas",
             "964": "Asistencia a la Dirección",
@@ -11220,6 +10996,7 @@
             "968": "Paisajismo y Medio Rural",
             "969": "Ganadería y Asistencia en Sanidad Animal",
             "970": "Diseño y Edición de Publicaciones Impresas y Multimedia",
+            "971": "Técnico Superior en Diseño y Gestión de la Producción Gráfica",
             "972": "Comercio Internacional",
             "973": "Gestión de Ventas y Espacios Comerciales",
             "974": "Transporte y Logística",
@@ -11248,6 +11025,7 @@
             "997": "Desarrollo de Aplicaciones WEB",
             "998": "Mantenimiento de Instalaciones Térmicas y de Fluidos",
             "999": "Mecatrónica Industrial",
+            "1000": "Desarrollo de Proyectos de Instalaciones Térmicas y de Fluidos",
             "1001": "Asesoría de Imagen Personal Y Corporativa",
             "1002": "Estética Integral y Bienestar",
             "1003": "Estilismo y Dirección de Peluquería",
@@ -11278,6 +11056,7 @@
             "1028": "Integración Social",
             "1029": "Mediación Comunicativa",
             "1030": "Promoción de Igualdad de Género",
+            "1031": "Formación para la movilidad segura y sostenible",
             "1032": "Patronaje y Moda",
             "1033": "Automoción",
             "1034": "Mantenimiento Aeromecánico de Aviones con Motor de Turbina",
@@ -11285,16 +11064,19 @@
             "1036": "Panadería y Bollería Artesanales",
             "1037": "Mantenimiento de vehículos híbridos y eléctricos",
             "1038": "Auditoría energética",
+            "1039": "Fabricación aditiva",
             "1040": "Ciberseguridad en Entornos de las Tecnologías de la Información",
             "1041": "Inteligencia Artificial y Big Data",
             "1042": "Desarrollo de videojuegos y realidad virtual",
             "1043": "Digitalización del Mantenimiento Industrial",
+            "1044": "Fabricación Inteligente",
             "1045": "Mantenimiento y seguridad en sistemas de vehículos híbridos y eléctricos",
             "1046": "Aeronaves pilotadas de forma remota-Drones",
             "1047": "Aula 2 años Educación Especial",
             "1048": "Modelado de la Información de la Construcción",
             "1049": "Robótica Colaborativa",
             "1051": "Prevención de riesgos profesionales",
+            "1052": "Recursos y Servicios en la Nube",
             "1053": "Desarrollo de Aplicaciones en Lenguaje Python",
             "1054": "Dirección de Servicios de Restauración/Dirección de Cocina"
         },
