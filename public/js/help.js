@@ -48,7 +48,7 @@ const CHRAHelpWarnings = function(p){
         return a.localeCompare(b); // Ordena alfabéticamente el resto
     });
     //console.log(limites_ordenados)
-    for(let key of limites_ordenados){
+    for(let key of limites_ordenados){ 
         //console.log(key)
         if(key == "_default_"){
             auxiliar = 'Por defecto'
