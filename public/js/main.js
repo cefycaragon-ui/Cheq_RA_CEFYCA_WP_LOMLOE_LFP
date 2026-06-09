@@ -11,7 +11,7 @@ var CHARAHelp_ruta_parametros ='../../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLO
 //En la v8.05 metemos todo en LOMLOE.
 //En la v9.041 metemos la LFP
 
-const v_js = "12.19"
+const v_js = "12.28"
 const txtLimiteCongErrores = 300
 const txtLimiteExpErrores = 300
 var limiteCongErrores = txtLimiteCongErrores
@@ -196,6 +196,20 @@ const cruces = function(r){
             }
             return "Materia no perteneciente a la enseñanza/curso"
         }
+    }else if(codigo == '42'){
+        //Evaluamos el tipo de matrícula en función de la enseñanza.
+        let valor = datos_temporales_linea['subcadena'] //tipo de matricula
+        valor = limpiarCodigos(valor)
+        
+        let tipo_ens = datos_temporales_linea['01'].trim()
+        let tipos_matricula_materia = r['tipo'][tipo_ens]
+
+        if (!tipos_matricula_materia ){
+            //Cuando no hay tipos de matricula para esa enseñanza en la variable de configuarcion verificamos el por defecto.
+            tipos_matricula_materia = r['tipo'][0]
+        }
+        return tipos_matricula_materia.includes(parseInt(valor))?0:1
+        
     }else if(codigo == '43' || codigo == '47' || codigo == '52'){
         //console.log('cruce del 43, 47, 52')
         padre = '01'
@@ -241,7 +255,7 @@ const cruces = function(r){
             //Si esta exento, convalidada o similar, a priori nos da igual la nota, fecha..
             return 0
             //Esta linea valida que si no hay obligación de poner nota, dicha nota esté en blanco.
-            return cadenaEnBlanco(valor) ? 0 : 1 //si el tipo de matrícula no es ordinaria admitimos cadenas de 'char blancos'             
+            //return cadenaEnBlanco(valor) ? 0 : 1 //si el tipo de matrícula no es ordinaria admitimos cadenas de 'char blancos'             
         }
     }else if(codigo == '44'  || codigo == '45' || codigo == '46' || codigo == '48'  || codigo == '49' || codigo == '410'){
         //validar si tipomatricula es ordinaria y si no validar con el patrón.

@@ -39,6 +39,17 @@ var tipos_calificacion = {
     '33' : '149',
     '37' : '149'
 }
+var tipos_matricula_materia = {
+    '0' : [1,2,3,4,5,6,7,9,10,11,12,13,14], // Valores por defecto, en algunas enseñanzas tendremos menos opciones.
+    '145' : [1,4,6,7,9], // PRIMARIA
+    '147' : [1,2,3,4,6,7,9], // ESO
+    '149' : [1,2,3,4,6,7,9], // BACH
+    '151' : [1,4,5,6,10,11,12,13,14], // LFP, Ciclos Formativos de Grado Básico
+    '152' : [1,4,5,6,10,11,12,13,14], // LFP, Ciclos Formativos de Grado Medio 
+    '153' : [1,4,5,6,10,11,12,13,14], // LFP, Ciclos Formativos de Grado Superior
+    '154' : [1,4,5,6,10,11,12,13,14], // LFP, Cursos de Especialización de Grado Medio
+    '155' : [1,4,5,6,10,11,12,13,14], // LFP, Cursos de Especialización de Grado Superior
+}
 var ensenanzas_con_extraordinaria = [
     '24', 
     '25', 
@@ -389,8 +400,10 @@ validacion[4]=[
         'cod'       : '42',
         'inicio'    : 42, //   TIPOMATRICULAMATERIA 
         'long'      : 2,
-        'tipo'      : [1,2,3,4,5,6,7,9,10,11,12,13,14],  
-        'txt_error' : "Error en TIPOMATRICULAMATERIA"
+        'tipo'      : tipos_matricula_materia, // Originalmente solo mirabamos esto: [1,2,3,4,5,6,7,9,10,11,12,13,14],  
+        'txt_error' : "Error en TIPOMATRICULAMATERIA",
+        'cruce'     : true,
+        'raiz_tipo' : 'denominacion_tipos_ensenanzas' // sirve para mostrar en la ayuda
     },{
         'cod'       : '43',
         'inicio'    : 44, //   CALIFICACION1 
@@ -415,7 +428,8 @@ validacion[4]=[
         'txt_error' : "Error en TIPO CALIFICACIÓN 1",
         'var'       : tipos_calificacion,
         'padre'     : '01',
-        'cruce'     : true
+        'cruce'     : true,
+        'definicion_tipo' : 'denominacion_tipos_ensenanzas' // sirve para mostrar en la ayuda
     },{
         'cod'       : '46',
         'inicio'    : 57, //   BILINGUISMO1

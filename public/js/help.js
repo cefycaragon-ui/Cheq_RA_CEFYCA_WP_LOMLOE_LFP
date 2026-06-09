@@ -1,4 +1,4 @@
-const version = "1.75"
+const version = "1.84"
 var CHARAHelp_ruta_parametros ='../../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLOE_LFP/public/js/parametros.json'
 
 //PARA DESARROLLO USAR ESTA.
@@ -153,6 +153,57 @@ const CHRAHelp_pintarLimitesMaterias = function(p){
     return txt
 }
 
+
+const CHRAHelp_pintarVariablesCruce = function(p,f){
+    //Esta function muestra algunas variables de cruce con ayuda para depurar.
+    let txt = ""
+
+    // Si es raiz_tipo = mostramos por la key
+    if (f['raiz_tipo']){
+        let variable_cruce = p[f['raiz_tipo']]
+        txt += '<li>Relación de tipos de matrícula<br><ul>'
+        for(let tipo in f['tipo']){
+            if (tipo == 0) {
+                txt += '<li> 0 : [' + f['tipo'][tipo] + '] (valor por defecto si no se encuentra la enseñanza en la configuración)'
+            }else{
+                txt += '<li>'+ variable_cruce[tipo] + ' : [' + f['tipo'][tipo] + ']'
+            }
+        }
+        txt += '</ul>'
+        return txt
+    }
+    // Si es raiz_tipo = mostramos por la key
+    if (f['definicion_tipo']){
+        //console.log(f['definicion_tipo'])
+        let variable_cruce = p[f['definicion_tipo']]
+        
+        txt += '<li>Relación de tipos de calificación particulares y sus enseñanzas<br><ul>'
+        for(let key in f['var']){
+            if (key == 0) {
+                txt += '<li> Tipo de calificación 0: por defecto' 
+            }else if (Array.isArray(f['var'][key])){
+                
+                txt += '<li> Tipo de calificación ' + key
+                txt += '<ul>'
+                for(let i of f['var'][key]){
+                    txt += '<li> '+variable_cruce[i] 
+                }
+                txt += '</ul>'
+            }else{
+                txt += '<li> Tipo de calificación '+ key ;
+                txt += '<ul>'
+                txt += '<li> '+variable_cruce[f['var'][key]] 
+                txt += '</ul>'
+            }
+        }
+        txt += '</ul>'
+        return txt
+    }
+
+
+    
+}
+
 const CHRAHelp_pintarMateriasAsignaturas = function(p){
     let txt =""
     txt += '<br><h4>Materias por enseñanza y tipo</h4>'
@@ -189,7 +240,7 @@ const CHRAHelp_pintarMateriasAsignaturas = function(p){
     return txt
 }
 
-const CHRAHelp_mostrarErrores = function(){
+const CHRAHelp_mostrarErrores = function(parametros_rec){
     let txt = ""
     let auxiliar = ""
     txt += "<br><h4>Listado de comprobaciones en líneas por tipo de línea del archivo.</h4>"
@@ -210,10 +261,14 @@ const CHRAHelp_mostrarErrores = function(){
         txt += ' aria-labelledby="heading_E_' + key +'" data-bs-parent="#accordionLimMaterias">'
         txt += '<div class="accordion-body">'
         for (let f of validacion[key]){
+            //console.log(f,key)
+            //console.log(tipos_matricula_materia);
             txt += '<ul><li><strong>' + f['txt_error'] +'</strong>'
             txt += '<li>Caracter inicial: ' + f['inicio'] 
             txt += '<li>Caracteres del dato: ' + f['long'] 
-            if (Array.isArray(f['tipo'])){
+            if(f['raiz_tipo'] || f['definicion_tipo']){
+                txt += CHRAHelp_pintarVariablesCruce(parametros_rec,f)
+            }else if (Array.isArray(f['tipo'])){
                 if(f['tipo'].length <=0){
                     txt += '<li>No hay parámetro de validación.'
                 }else{
@@ -222,6 +277,14 @@ const CHRAHelp_mostrarErrores = function(){
                 }
             }else if(f['tipo'] instanceof RegExp){
                 txt += '<li>Validación por la expresión regular: ' + f['tipo'] 
+            }else  if(f['tipo'] instanceof Object){
+                //Si hay un objeto cruzado con raiz_tipo o definicicon_tipo mostramos los valores de ese objeto.
+                txt += '<li>Validación por los siguientes parámetros: <ul>'
+                for(let k in f['tipo']){
+                    txt += '<li>' + k + ': ' + f['tipo'][k]
+                }
+                txt += '</ul>'
+                
             }else if(f['tipo'] == ""){
                 txt += '<li>No hay parámetro de validación.'
             }else{
@@ -250,7 +313,7 @@ const CHRAHelp_pintarAyuda = function(parametros_rec){
 
     textoAyuda += CHRAHelp_pintarLimitesMaterias(parametros_rec)
     textoAyuda += CHRAHelpWarnings(parametros_rec)
-    textoAyuda += CHRAHelp_mostrarErrores()
+    textoAyuda += CHRAHelp_mostrarErrores(parametros_rec)
     textoAyuda += CHRAHelp_pintarMateriasAsignaturas(parametros_rec)  // "ensenanzas_asignaturas"
     
     document.getElementById('Cheq_RA_CEFYCA_WP_HELP').innerHTML = textoAyuda
