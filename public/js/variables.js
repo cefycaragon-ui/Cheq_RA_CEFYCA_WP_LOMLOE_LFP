@@ -688,11 +688,17 @@ const haAprobado = function(tipo_ens, nota){
 
 const ensenanzaTitula = function(tipo_ense,curso){
     //Esta función revisa que sea un curso que pueda titular.
+    console.log('ensenanzaTitula',tipo_ense,curso)
     tipo_ense = limpiarCodigos(tipo_ense)
+    console.log('tipo_ense',tipo_ense)
     let ense_titulan = parametros['ensenanzas_titulan']
+    console.log('ensenanzas_titulan',ense_titulan[tipo_ense])
+    console.log(ense_titulan[tipo_ense].includes(curso))
     if (ense_titulan[tipo_ense] && ense_titulan[tipo_ense].includes(curso)){
+        console.log('La enseñanza ' + tipo_ense + ' en el curso ' + curso + ' puede titular')
         return true
     }
+    console.log('La enseñanza ' + tipo_ense + ' en el curso ' + curso + ' NO puede titular')
     return false
 }
 
