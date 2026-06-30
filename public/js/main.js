@@ -11,7 +11,7 @@ var CHARAHelp_ruta_parametros ='../../wp-content/plugins/Cheq_RA_CEFYCA_WP_LOMLO
 //En la v8.05 metemos todo en LOMLOE.
 //En la v9.041 metemos la LFP
 
-const v_js = "12.28"
+const v_js = "12.46"
 const txtLimiteCongErrores = 300
 const txtLimiteExpErrores = 300
 var limiteCongErrores = txtLimiteCongErrores
@@ -951,7 +951,7 @@ const evaluarAlumnoMateria = function(linea_alumno, dato_alumno, dato_materias, 
             //console.log(dato_alumno)
             //console.log(dato_materias)
             //console.log(rango_materias)
-            //console.log(numero_materias)
+                //console.log(numero_materias)
                 cadena = '<a href="#link' + linea_alumno + '"><span class="textoResaltado">Linea: ' + linea_alumno  + ': ' + dato_alumno['nombre'] + '</span> ATENCIÓN: Número de materias ( ' + numero_materias + ' ) inadecuado para la enseñanza (' + cursoEnsenanzaActiva + ') del alumno: ' + rango_materias.join(' - ') + '</a>'
                 cadena += pintarMaterias(dato_materias)
                 //return [cadena,cadenaExpErrores]
@@ -1072,6 +1072,9 @@ const evaluarAlumnoMateria = function(linea_alumno, dato_alumno, dato_materias, 
     //}
     return ""
 }
+
+
+
 const validarCongruencia = function(){
     //Vamos a validar la congruencia usando datosEstructura
     //console.log('En validar Congruencia')
@@ -1200,17 +1203,26 @@ const validarCongruencia = function(){
                                 //Es una matricula efectiva
                                 //console.log('Es una matrícula efectiva')
                                 tmp_numero_materias += 1
+                                //En el caso de asignaturas de otro curso no son efectivas.
+                                
                                 //Validamos si hay asignaturas con tipomatriculamateria 1 en otro curso.
                                 if(datos[auxiliar]['curso'] != datoLinea['curso']){
                                     //Hay una asignatura de otro curso con tipoMatriculaMateria tipo 1 o convalidada...
-                                    if(limiteCongErrores>0){
-                                        txtDevolucion += '<br>ATENCIÓN, línea ' + j + ' con tipo de matrícula de materia efectiva ( ' +tipo_matricula_materia+ ' ) para asignatura ( ' + datoLinea['materia'] + ' ) de otro curso.'
-                                        limiteCongErrores--
+                                    // Hay que hacer una excepción cuando la asignatura es de prelación y el alumno es de BACH2 y
+                                    // la asignatura es de BACH 1.
+                                    if(noEsMateriaPrelacionBach1(datos[auxiliar],datoLinea)){
+                                        if(limiteCongErrores>0){
+                                            txtDevolucion += '<br>ATENCIÓN, línea ' + j + ' con tipo de matrícula de materia efectiva ( ' +tipo_matricula_materia+ ' ) para asignatura ( ' + datoLinea['materia'] + ' ) de otro curso.<br>'
+                                            limiteCongErrores--
+                                        }
+                                    }else{
+                                        tmp_numero_materias -=1;
                                     }
+                                    
                                 }
                             }else if(tipo_matricula_materia == '4' && datos[auxiliar]['curso'] == datoLinea['curso'] ){
                                 if(limiteCongErrores>0){
-                                    txtDevolucion += '<br>ATENCIÓN, línea ' + j + ' con tipo de matrícula de materia efectiva ( ' +tipo_matricula_materia+ ' ) para asignatura ( ' + datoLinea['materia'] + ' ) en su mismo curso.'
+                                    txtDevolucion += '<br>ATENCIÓN, línea ' + j + ' con tipo de matrícula de materia efectiva ( ' +tipo_matricula_materia+ ' ) para asignatura ( ' + datoLinea['materia'] + ' ) en su mismo curso.<br>'
                                     limiteCongErrores--
                                 }
                             }

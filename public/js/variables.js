@@ -688,17 +688,11 @@ const haAprobado = function(tipo_ens, nota){
 
 const ensenanzaTitula = function(tipo_ense,curso){
     //Esta función revisa que sea un curso que pueda titular.
-    console.log('ensenanzaTitula',tipo_ense,curso)
     tipo_ense = limpiarCodigos(tipo_ense)
-    console.log('tipo_ense',tipo_ense)
     let ense_titulan = parametros['ensenanzas_titulan']
-    console.log('ensenanzas_titulan',ense_titulan[tipo_ense])
-    console.log(ense_titulan[tipo_ense].includes(curso))
     if (ense_titulan[tipo_ense] && ense_titulan[tipo_ense].includes(curso)){
-        console.log('La enseñanza ' + tipo_ense + ' en el curso ' + curso + ' puede titular')
         return true
     }
-    console.log('La enseñanza ' + tipo_ense + ' en el curso ' + curso + ' NO puede titular')
     return false
 }
 
@@ -871,4 +865,106 @@ const warningAvisosMaterias = function(warningsMaterias,warningTemporalesFP){
         }
     }
 }
+
+const noEsMateriaPrelacionBach1 = function (auxiliar,linea){
+    /* 
+        Esta función mira si la asignatura es de prelación de primero y el alumno está en segundo. 
+    */
+    // Revisamos que el alumno este en 2º de BACH.
+    const materias_prelacion_1 = [
+        "13370",
+        "13388",
+        "13334",
+        "13352",
+        "13371",
+        "13389",
+        "13335",
+        "13353",
+        "13237",
+        "13195",
+        "13209",
+        "13223",
+        "13373",
+        "13391",
+        "13337",
+        "13355",
+        "13372",
+        "13390",
+        "13336",
+        "13354",
+        "13225",
+        "13239",
+        "13197",
+        "13211",
+        "13377",
+        "13359",
+        "13341",
+        "13395",
+        "13226",
+        "13240",
+        "13198",
+        "13212",
+        "13325",
+        "13324",
+        "13409",
+        "13410",
+        "13411",
+        "13412",
+        "13413",
+        "13414",
+        "13257",
+        "13258",
+        "13253",
+        "13254",
+        "13255",
+        "13256",
+        "13318",
+        "13319",
+        "13320",
+        "13321",
+        "13322",
+        "13323",
+        "13471",
+        "13468",
+        "13469",
+        "13470",
+        "13466",
+        "13467",
+        "13267",
+        "13303",
+        "13279",
+        "13291",
+        "13238",
+        "13196",
+        "13210",
+        "13224",
+        "13379",
+        "13361",
+        "13343",
+        "13397",
+        "13227",
+        "13213",
+        "13241",
+        "13199",
+        "13307",
+        "13271",
+        "13283",
+        "13295",
+        "13445",
+        "13455",
+        "13425",
+        "13435"
+    ]
+    if (auxiliar['curso'] !=2 || auxiliar['tipo_ens'] != '149'){
+        return true
+    }
+    if (!materias_prelacion_1.includes(linea['materia'])){
+        return true
+    }
+    
+    // Ahora miramos si la materia es de prelacion.
+    //console.log(auxiliar, linea)
+    return false
+}
+
 
